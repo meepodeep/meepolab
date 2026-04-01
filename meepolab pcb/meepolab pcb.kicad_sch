@@ -8665,6 +8665,28 @@
 			)
 		)
 	)
+	(global_label "Col7"
+		(shape input)
+		(at 21.59 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03a9a2f0-c275-4be5-b0ea-da25c9f5c821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.3111 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyTop11Gnd"
 		(shape input)
 		(at 298.45 22.86 180)
@@ -10029,7 +10051,7 @@
 			)
 		)
 	)
-	(global_label "Col10"
+	(global_label "Col5"
 		(shape input)
 		(at 77.47 76.2 0)
 		(fields_autoplaced yes)
@@ -10271,6 +10293,28 @@
 			)
 		)
 	)
+	(global_label "RecGnd"
+		(shape input)
+		(at 388.62 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45936b31-3c73-4fcc-8928-ef2560d31b12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.6196 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Drum2"
 		(shape input)
 		(at 154.94 62.23 0)
@@ -10328,6 +10372,28 @@
 		(uuid "48f9af86-aa4e-401e-a3fc-e548d830a644")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.0087 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OctDwnGnd"
+		(shape input)
+		(at 388.62 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49440e40-ede1-45c7-b952-fe9afa100c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.1725 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,6 +11393,28 @@
 			)
 		)
 	)
+	(global_label "RecV"
+		(shape input)
+		(at 388.62 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62ca3fc5-9c67-43f4-8a86-a9f98b2d94e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.099 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RCLK"
 		(shape input)
 		(at 182.88 250.19 180)
@@ -11367,6 +11455,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OctUpGnd"
+		(shape input)
+		(at 388.62 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "657de0a1-2eec-4e09-94f2-e193378c6998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 376.4425 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11604,6 +11714,28 @@
 		(uuid "6eef6d5f-f6f3-4715-92d6-a4432b54a404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.0954 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col6"
+		(shape input)
+		(at 21.59 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "727c15c6-c869-4067-bc50-7967d161a3af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.3111 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,6 +12357,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col8"
+		(shape input)
+		(at 21.59 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86f6f405-35d0-4eb6-8f86-4bf1c1f75413")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.3111 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12929,6 +13083,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PlayPauseGnd"
+		(shape input)
+		(at 388.62 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dd197c3-665d-41e8-822e-0ca5d080fc5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.3303 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13659,6 +13835,28 @@
 			)
 		)
 	)
+	(global_label "OctUpV"
+		(shape input)
+		(at 388.62 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba71f658-7c47-4fbb-9799-f5c7d1b35b71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.9219 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyTop1Gnd"
 		(shape input)
 		(at 262.89 22.86 180)
@@ -13857,6 +14055,28 @@
 			)
 		)
 	)
+	(global_label "Col10"
+		(shape input)
+		(at 77.47 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf4f9b20-ff23-4a38-b5da-8a614cdf644f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.9584 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyTop8Gnd"
 		(shape input)
 		(at 267.97 152.4 180)
@@ -14051,6 +14271,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ShiftGnd"
+		(shape input)
+		(at 388.62 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c600d098-b7dc-490c-a727-510603b1e30d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.6521 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14407,6 +14649,28 @@
 			)
 		)
 	)
+	(global_label "ShiftV"
+		(shape input)
+		(at 388.62 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d73255f2-e31d-40a8-a1e9-c3dc187c087f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 380.1315 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyTop2Gnd"
 		(shape input)
 		(at 267.97 120.65 180)
@@ -14442,6 +14706,28 @@
 		(uuid "d848a24b-b892-400f-af01-3e53c07b4bad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 375.6563 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OctDwnV"
+		(shape input)
+		(at 388.62 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8517377-f562-46c8-8603-3514958bf295")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.6519 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,6 +14913,28 @@
 			)
 		)
 	)
+	(global_label "PlayPauseV"
+		(shape input)
+		(at 388.62 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfca05f0-fe91-44e0-bcf7-0b464656ac3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.8097 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyTop12Gnd"
 		(shape input)
 		(at 267.97 172.72 180)
@@ -14728,6 +15036,28 @@
 		(uuid "e8a2c4b8-2d00-4705-a187-ab4508e74953")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.51 15.5811 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col9"
+		(shape input)
+		(at 77.47 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9187b95-6d5d-4b24-8222-02a833cca337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.7489 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19512,7 +19842,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b92050e")
 		)
 		(instances
 			(project ""
@@ -20532,7 +20862,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136433")
 		)
 		(instances
 			(project ""
@@ -21126,6 +21456,73 @@
 			(project "meepolab pcb"
 				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
 					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 391.16 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "480a497b-38a4-4c2a-b79d-aa1dedd0b57e")
+		(property "Reference" "H3"
+			(at 394.97 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 394.97 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 391.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 391.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74a57a00-8f5c-463a-8d89-4f06835fa7cb")
+		)
+		(instances
+			(project "meepolab pcb"
+				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -22366,7 +22763,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136434")
 		)
 		(instances
 			(project ""
@@ -23114,7 +23511,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b92050f")
 		)
 		(instances
 			(project ""
@@ -23646,7 +24043,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b920510")
 		)
 		(instances
 			(project ""
@@ -23984,7 +24381,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136435")
 		)
 		(instances
 			(project ""
@@ -25479,7 +25876,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b920511")
 		)
 		(instances
 			(project ""
@@ -26028,7 +26425,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136436")
 		)
 		(instances
 			(project ""
@@ -26232,7 +26629,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136437")
 		)
 		(instances
 			(project ""
@@ -26466,7 +26863,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b920512")
 		)
 		(instances
 			(project ""
@@ -26694,7 +27091,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136438")
 		)
 		(instances
 			(project ""
@@ -28619,7 +29016,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b920513")
 		)
 		(instances
 			(project ""
@@ -31139,6 +31536,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 391.16 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c31987d9-6d45-4159-8cd1-58ef0ec795aa")
+		(property "Reference" "H4"
+			(at 394.97 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 394.97 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 391.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 391.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c8f8713-d0d6-4b65-a225-f4543be02c78")
+		)
+		(instances
+			(project "meepolab pcb"
+				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 262.89 81.28 90)
 		(unit 1)
@@ -32212,7 +32676,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d075136439")
 		)
 		(instances
 			(project ""
@@ -34009,7 +34473,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1009f5f1-33c4-4217-bd0b-3f855cabb5ca")
+			(uuid "1009f5f1-33c4-4217-bd0b-3f855cabb5d1")
 		)
 		(instances
 			(project ""
@@ -34076,7 +34540,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc585deb-877d-46e0-b68f-18943b92050d")
+			(uuid "dc585deb-877d-46e0-b68f-18943b920514")
 		)
 		(instances
 			(project ""
@@ -34675,7 +35139,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f09df77-eeac-4140-b778-89d075136432")
+			(uuid "7f09df77-eeac-4140-b778-89d07513643a")
 		)
 		(instances
 			(project ""

@@ -9963,6 +9963,28 @@
 			)
 		)
 	)
+	(global_label "External 3v3"
+		(shape input)
+		(at 193.04 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39d81372-e29d-4907-ad6d-00dfb0de9ec0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 19.2098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyTop10Gnd"
 		(shape input)
 		(at 280.67 95.25 180)
@@ -10443,6 +10465,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "External 3v3"
+		(shape input)
+		(at 193.04 166.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a4d9f5d-bcda-46a7-8d1f-671142fc7625")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 151.2898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11591,6 +11635,28 @@
 			)
 		)
 	)
+	(global_label "External 3v3"
+		(shape input)
+		(at 193.04 232.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6aa1c9e5-2d64-4fc8-b9c1-8daa2bb9c6a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 217.3298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KeyBot13Gnd"
 		(shape input)
 		(at 359.41 120.65 180)
@@ -12339,6 +12405,28 @@
 			)
 		)
 	)
+	(global_label "External 3v3"
+		(shape input)
+		(at 193.04 101.6 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86abcebb-03d9-4c35-98c9-b526a5607355")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 86.5198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row0"
 		(shape input)
 		(at 450.85 30.48 0)
@@ -13012,6 +13100,28 @@
 		(uuid "9bc247dc-0376-4dfd-b1c4-0da9b1aac8db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.73 89.3451 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "External 3v3"
+		(shape input)
+		(at 106.68 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c09c762-8aa2-4184-88d5-04e29cbfed42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.5998 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21171,72 +21281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 193.04 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46dd94ce-7d2d-461f-b566-a4aead97bf65")
-		(property "Reference" "#PWR026"
-			(at 193.04 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 193.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee0480be-4be9-4b1b-82fa-c8a43d40742e")
-		)
-		(instances
-			(project "meepolab pcb"
-				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 20.32 130.81 180)
 		(unit 1)
@@ -22924,72 +22968,6 @@
 			(project "meepolab pcb"
 				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 193.04 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "637043eb-4b5a-4d63-b246-cb008cfd95f3")
-		(property "Reference" "#PWR015"
-			(at 193.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 193.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4dc1cd3-7bed-40d0-b39d-b798c20d9db2")
-		)
-		(instances
-			(project "meepolab pcb"
-				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -26282,6 +26260,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87df67aa-7e17-4a07-8084-7171637eceff")
+		(property "Reference" "#PWR010"
+			(at 100.33 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3e0b84-d26e-45eb-85b9-e983c94cf846")
+		)
+		(instances
+			(project "meepolab pcb"
+				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 262.89 45.72 90)
 		(unit 1)
@@ -26568,6 +26613,76 @@
 			(project "meepolab pcb"
 				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
 					(reference "D94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 111.76 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5cdb0f-e317-41e9-9a77-90acf7c740ee")
+		(property "Reference" "J22"
+			(at 113.03 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 113.03 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa0812ee-c318-435e-b818-112eda606f94")
+		)
+		(pin "2"
+			(uuid "76939f9c-b687-4ff6-940b-2cfe14ad76de")
+		)
+		(instances
+			(project ""
+				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -27299,72 +27414,6 @@
 			(project ""
 				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 193.04 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9742007e-c01a-4ed3-a4e9-10614f5d99b2")
-		(property "Reference" "#PWR020"
-			(at 193.04 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 193.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a46217dd-f72c-4499-b6ee-5c0f6f1a04ba")
-		)
-		(instances
-			(project "meepolab pcb"
-				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -33510,72 +33559,6 @@
 			(project "meepolab pcb"
 				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
 					(reference "D62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 193.04 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcec13cd-170b-4854-a92d-367efeff56c0")
-		(property "Reference" "#PWR010"
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 193.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aef9dbb5-a69a-4746-a24a-d2be39436aa0")
-		)
-		(instances
-			(project ""
-				(path "/967707c8-68d4-4943-9c6e-05e11d461e8e"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

@@ -36,7 +36,7 @@ midi controller
 6. <img width="881" height="577" alt="image" src="https://github.com/user-attachments/assets/9362fad8-5538-438d-9f15-23708e9e868a" />
 7.insert all of the tactile switches into their holes in their mounting brackets.
 <img width="2243" height="1169" alt="image" src="https://github.com/user-attachments/assets/19a44c21-20f1-4924-b7de-b16624c26607" />
-8. tape piezo sensors to the back of each drum pad square on the drum pad membrane, and then mount the drum pad membrane to the keyboard
+8. tape piezo sensors to the back of each drum pad square on the drum pad membrane and the leds from the first shift register to it as well, and then mount the drum pad membrane to the keyboard
 9. <img width="2342" height="623" alt="image" src="https://github.com/user-attachments/assets/895c28e6-85cd-4653-9086-9d5158411804" />
 10. Mount the octave rocker, first by inserting it into position, and then inserting the axel after
 11. <img width="1712" height="1008" alt="image" src="https://github.com/user-attachments/assets/42f0a45a-758d-4364-b116-237b9dbf9b7d" />

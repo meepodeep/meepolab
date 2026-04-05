@@ -1,4 +1,4 @@
-<img width="1921" height="907" alt="image" src="https://github.com/user-attachments/assets/4de63df9-4272-4ff8-aae0-cc357f20c8ca" /># MeepoLab
+# MeepoLab
 ## Beginner 25-key midi controller with velocity-sensitive keys and drum pads
 <img width="2840" height="1507" alt="image" src="https://github.com/user-attachments/assets/2c0fe79d-f802-40e3-86f1-2499fc8b68f6" />
 <img width="1447" height="716" alt="image" src="https://github.com/user-attachments/assets/fdca9a41-e886-4f47-81bd-5f0970da8791" />

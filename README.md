@@ -52,29 +52,12 @@ midi controller
 21. put on fader caps
 22. insert leds and cover with optional acrylic
 23. <img width="1896" height="340" alt="image" src="https://github.com/user-attachments/assets/8fdd8a11-bd13-40b2-83a5-142877298025" />\
-24. Attach bottom with m3 hardware
-25. <img width="2025" height="1428" alt="image" src="https://github.com/user-attachments/assets/2864c253-0496-457a-ad1d-f26254c9ee25" />
-26. put keycaps on keys if you want
-27. <img width="1011" height="496" alt="image" src="https://github.com/user-attachments/assets/5368aa90-4200-435d-8830-83a9666ede02" />
+24. connect the cable to the teensy and run it through the hole
+25. Attach bottom with m3 hardware
+26. <img width="2025" height="1428" alt="image" src="https://github.com/user-attachments/assets/2864c253-0496-457a-ad1d-f26254c9ee25" />
+27. put keycaps on keys if you want
+28. <img width="1011" height="496" alt="image" src="https://github.com/user-attachments/assets/5368aa90-4200-435d-8830-83a9666ede02" />
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-PICTURES OF YOUR PROJECT
-A screenshot of a full 3D model with your project
-A screenshot of your PCB, if you have one
-A wiring diagram, if you're doing any wiring that isn't on a PCB
-A BOM in table format at the end of the README

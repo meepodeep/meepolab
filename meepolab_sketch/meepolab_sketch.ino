@@ -21,12 +21,53 @@ CD74HC4067 mux_1 {
   22,       // Analog input pin
   {4, 5, 6, 7} // Address pins 0 1 2 3
 };
+SPIShiftRegisterOut<32> sreg {
+  SPI,      // SPI interface to use
+  10,       // Latch pin (ST_CP)
+  MSBFIRST, // Byte order
+};
+
 using namespace MIDI_Notes;
 
 // Create an array of potentiometers that send out
 // MIDI Control Change messages when you turn the
 // potentiometers connected to the eight input pins of
 // the multiplexer
+NoteLED leds[] {
+  {sreg.pin(0), 0},  // LED pin, address (note number, channel, cable)
+  {sreg.pin(1), 1},  //
+  {sreg.pin(2), 2},  //
+  {sreg.pin(3), 3},  //
+  {sreg.pin(4), 4},  //
+  {sreg.pin(5), 5},  //
+  {sreg.pin(6), 6},  //
+  {sreg.pin(7), 7},  //
+  {sreg.pin(8), 8},  //
+  {sreg.pin(9), 9},  //
+  {sreg.pin(10), 10},  //
+  {sreg.pin(11), 11},  //
+  {sreg.pin(12), 12},  //
+  {sreg.pin(13), 13},  //
+  {sreg.pin(14), 14},  //
+  {sreg.pin(15), 15},  //
+  {sreg.pin(16), 16},  //
+  {sreg.pin(17), 17},  //
+  {sreg.pin(18), 18},  //
+  {sreg.pin(19), 19},  //
+  {sreg.pin(20), 20},  //
+  {sreg.pin(21), 21},  //
+  {sreg.pin(22), 22},  //
+  {sreg.pin(23), 23},  //
+  {sreg.pin(24), 24},  //
+  {sreg.pin(25), 25},  //
+  {sreg.pin(26), 26},  //
+  {sreg.pin(27), 27},  //
+  {sreg.pin(28), 28},  //
+  {sreg.pin(29), 29},  //
+  {sreg.pin(30), 30},  //
+  {sreg.pin(31), 31},  //
+  {sreg.pin(32), 32},  //
+};
 CCPotentiometer volumePotentiometers[] {
   {mux.pin(0), {MIDI_CC::Channel_Volume, Channel_1}},
   {mux.pin(1), {MIDI_CC::Channel_Volume, Channel_2}},
@@ -43,14 +84,14 @@ CCPotentiometer volumePotentiometers[] {
 };
 
 Bankable::NoteButton buttons[] = {
-  {transposer, mux.pin(12), {8, Channel_13}},
-  {transposer, mux.pin(13), {7, Channel_13}},
-  {transposer, mux.pin(14), {6, Channel_13}},
-  {transposer, mux.pin(15), {5, Channel_13}},
-  {transposer, mux_1.pin(0), {4, Channel_13}},
-  {transposer, mux_1.pin(1), {3, Channel_13}},
-  {transposer, mux_1.pin(2), {2, Channel_13}},
-  {transposer, mux_1.pin(3), {1, Channel_13}},
+  {transposer, mux.pin(12), {25, Channel_13}},
+  {transposer, mux.pin(13), {26, Channel_13}},
+  {transposer, mux.pin(14), {27, Channel_13}},
+  {transposer, mux.pin(15), {28, Channel_13}},
+  {transposer, mux_1.pin(0), {29, Channel_13}},
+  {transposer, mux_1.pin(1), {30, Channel_13}},
+  {transposer, mux_1.pin(2), {31, Channel_13}},
+  {transposer, mux_1.pin(3), {32, Channel_13}},
 };
 // The note numbers corresponding to the buttons in the matrix
 const AddressMatrix<5, 5> addresses {{

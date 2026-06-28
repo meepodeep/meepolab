@@ -19,7 +19,7 @@ CD74HC4067 mux {
 };
 CD74HC4067 mux_1 {
   22,       // Analog input pin
-  {4, 5, 6, 7} // Address pins 4 5 6 7
+  {4, 5, 6, 7} // Address pins 0 1 2 3
 };
 SPIShiftRegisterOut<32> sreg {
   SPI,      // SPI interface to use
